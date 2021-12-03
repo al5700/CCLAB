@@ -1,9 +1,0 @@
-I will create a restauran(hotpot like)
-
-You will order food by selcting 
-the hot pot option you want to eat
-The food will appear in a giff
-
-Onmce you have the plate
-You press eat, you will see a giff o eating.
-
