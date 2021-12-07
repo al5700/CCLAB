@@ -19,12 +19,15 @@ let imgSpagetiC;
 let imgChikenR;
 let imgChikenC;
 
+<<<<<<< HEAD
 //hot protot
 let pot;
 
 //song
 let song;
 let mic;
+=======
+>>>>>>> 554061a41c00ec538bec8eaa4ddb3329d528951c
 
 function preload() {
     //prown
@@ -42,11 +45,14 @@ function preload() {
   //chiken
   imgChikenR = loadImage("assets/chiken-r.png");
   imgChikenC = loadImage("assets/chiken-c.png");
+<<<<<<< HEAD
 
   pot = loadImage("assets/HP.gif");
 
   //song
   song = loadSound("assets/song.mp3");
+=======
+>>>>>>> 554061a41c00ec538bec8eaa4ddb3329d528951c
 }
 
 function setup() {
@@ -58,9 +64,12 @@ function setup() {
   foods.push(new MoveableFood(windowWidth*3/8, 200, 150, imgMeatR, imgMeatC) );
   foods.push(new MoveableFood(windowWidth*5/8, 200, 150, imgSpagetiR, imgSpagetiC) );
   foods.push(new MoveableFood(windowWidth*7/8, 200, 150, imgChikenR, imgChikenC) );
+<<<<<<< HEAD
 
   //song
   mic = new p5.AudioIn();
+=======
+>>>>>>> 554061a41c00ec538bec8eaa4ddb3329d528951c
 }
 
 function draw() {
@@ -70,8 +79,11 @@ function draw() {
   noFill();
   circle(width/2, height/2, hotpotRad*2);
 
+<<<<<<< HEAD
   image(pot, width/2-300, height/2-200);
 
+=======
+>>>>>>> 554061a41c00ec538bec8eaa4ddb3329d528951c
   for (let i=0; i<foods.length; i++) {
     let f = foods[i];
     f.checkMouse();
@@ -80,6 +92,7 @@ function draw() {
   }
 }
 
+<<<<<<< HEAD
 function mousePressed(){
   if(song.isPlaying() == false){
     song.play();
@@ -88,6 +101,8 @@ function mousePressed(){
   }
 }
 
+=======
+>>>>>>> 554061a41c00ec538bec8eaa4ddb3329d528951c
 
 class MoveableFood {
   constructor(x, y, rad, imgR, imgC) {

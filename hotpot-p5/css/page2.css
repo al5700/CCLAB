@@ -8,12 +8,15 @@ canvas {
   display: block;
 }
 
+<<<<<<< HEAD
 .img{
   position: absolute;
   top: 500px;
   left: 1140px
 }
 
+=======
+>>>>>>> 554061a41c00ec538bec8eaa4ddb3329d528951c
 .button{
   width: 200px;
   position: absolute;
