@@ -1,0 +1,23 @@
+:html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.button{
+  width: 150px;
+  position: absolute;
+  top: 700px;
+  left: 200px;
+  background-color: rgb(255,255,255);
+  color: black;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
